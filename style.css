@@ -16,7 +16,6 @@ height: 20%;
 background-color: hsl(193, 100%, 96%);
 }
 .divtop1{
-    
     width: 50%;
 }
 .divtop2{
@@ -30,7 +29,6 @@ background-color: hsl(193, 100%, 96%);
   width: 100%;
 height: 20%;
 background-color: hsl(193, 100%, 96%);
-background-image: url();
 }
 
 
@@ -52,8 +50,7 @@ text-align: center;
   
 
 .div1{
-    
-    max-width: 30%;
+    width: 30%;
     align-items: center;
 justify-content:  center;
 text-align: center;
@@ -76,9 +73,9 @@ text-align: center;
 .div1a{
    width: 70%;
    align-items: left;
-justify-items: left;
-text-align: left;
- object-fit: cover;
+justify-items: left; */
+/* text-align: left;
+ object-fit: cover; */
 
 }
 .img{
@@ -193,7 +190,6 @@ color: white;
 }
 
 .row6a{
-/* margin: auto; */
 display: flex;
 flex-direction: column;
  width: 25%; 
@@ -228,7 +224,6 @@ color: white;
 .div6cc{
 width: 25%;
 display: flex;
-/* text-align: left; */
     align-items: center;
     justify-content: center;
 }
@@ -262,8 +257,17 @@ p{
 
 }
 @media screen and (min-width:375px) and (max-width:1440px){
-   .main,.rowtop,.row1,.row2,.row3,.row4,.row5,.row6{ flex-direction: column;}
+   .main,.row1,.row2,.row3,.row4,.row5,.row6{ flex-direction: column;}
    .row6a,.div6a,.div6b,.div6c,.div6cc{width:100%; text-align:left; align-items: left; justify-items: left;}
    .div1a,.div2a,.div3,.div4a{width: 100%;
 object-fit: cover; }
+
+
+ .div1{width:100%;
+} 
+.div6b,.div6c{
+    text-align: left;
+    align-items: flex-start;
+    justify-content: left;
+}
 }
