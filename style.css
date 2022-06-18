@@ -1,0 +1,269 @@
+*{
+    padding: 10px;
+    margin: 0PX;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+main{
+    width: auto;
+}
+.rowtop{
+margin: auto;
+display: flex;
+width: 100%;
+height: 20%;
+background-color: hsl(193, 100%, 96%);
+}
+.divtop1{
+    
+    width: 50%;
+}
+.divtop2{
+    margin: auto;
+    width: 50%;
+    text-align: right;
+}
+
+.row1{
+    display: flex;
+  width: 100%;
+height: 20%;
+background-color: hsl(193, 100%, 96%);
+background-image: url();
+}
+
+
+.btn3{
+    background-color:white;
+    color: black;
+    text-decoration: none;
+    align-items: right;
+    justify-content: right;
+padding: 10px 50px 10px 50px;
+border-radius: 2cm;
+border-style: solid;
+border-color: aliceblue;
+    font-family: OpenSans;
+    font-weight: 700; 
+    margin: auto;
+text-align: center;
+}
+  
+
+.div1{
+    
+    max-width: 30%;
+    align-items: center;
+justify-content:  center;
+text-align: center;
+
+}
+
+.btn1{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-family: OpenSans;
+    font-weight: 700;
+  border-radius: 2cm;
+border-style: solid;
+border-color:  hsl(322, 100%, 66%);
+padding: 10px 50px 10px 50px;
+margin: auto;
+text-align: center;
+
+}
+.div1a{
+   width: 70%;
+   align-items: left;
+justify-items: left;
+text-align: left;
+ object-fit: cover;
+
+}
+.img{
+
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover;}
+
+.row2{
+    margin: 20px;
+    display: flex;
+    float: left;
+ width: 100%; 
+align-items: center;
+justify-items: center;
+height: 15%;
+border-style: solid;
+border-color: rgb(247, 249, 250);
+border-radius: 0.2cm;
+}
+.div2{
+    background-color:none;
+    width: 100%;}
+
+.div2a{
+    background-color: none;
+    width: 100%;}
+
+
+
+.row3{
+    margin: 20px;
+    display: flex;
+    float: left;
+ width: 100%; 
+align-items: center;
+justify-items: center;
+height: 15%;
+border-style: solid;
+border-color: rgb(247, 249, 250);
+border-radius: 0.2cm;
+}
+.div3{
+    background-color: none;
+    width: 100%;
+
+}
+.div3a{
+        background-color: none;
+    width: 100%;
+
+}
+
+
+.row4{
+     margin: 20px;
+    display: flex;
+    float: left;
+ width: 100%; 
+align-items: center;
+justify-items: center;
+height: 15%;
+border-style: solid;
+border-color: rgb(247, 249, 250);
+border-radius: 0.2cm
+}
+.div4{
+    background-color: none;
+    width: 100%;
+
+}
+.div4a{
+        background-color: none;
+    width: 100%;}
+
+
+
+.row5{
+position: relative;
+margin: auto; 
+display: flex;
+float: center;
+align-items: center;
+height: 10%;
+background-color:white;
+width: 50%;
+border-style: solid;
+border-color: rgb(247, 249, 250);
+border-radius: 0.2cm;
+margin-bottom: -40px;
+box-shadow:white;
+padding: 40px;
+flex-direction: column;
+
+}
+ .rowlast{
+  background-color: hsl(192, 100%, 9%); 
+  width: 100%;
+  margin:auto;
+  border-style: solid;
+border-color: rgb(247, 249, 250);
+border-radius: 0.2cm;
+} 
+
+.row6{
+margin: auto;
+display: flex;
+background-color: hsl(192, 100%, 9%);
+width: 100%; 
+height: 15%;
+color: white; 
+}
+
+.row6a{
+/* margin: auto; */
+display: flex;
+flex-direction: column;
+ width: 25%; 
+ align-items: left;
+justify-items: left;
+text-align: left;
+color: white;
+
+}
+
+.div6a{
+    width: 25%;
+}
+.div6b{
+
+    width: 25%;
+    align-items: center;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.div6c{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+       text-align: left;
+}
+.div6cc{
+width: 25%;
+display: flex;
+/* text-align: left; */
+    align-items: center;
+    justify-content: center;
+}
+.row6b{
+    width: 100%;
+text-align: right;
+margin: auto;
+background-color: hsl(192, 100%, 9%);
+width: 100%; 
+align-items: right;
+justify-items: right;
+height: 15%;
+color: white; 
+}
+
+h3{
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+
+
+h3{
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+p{
+      font-family: Open Sans;
+    font-weight: 400;  
+
+}
+@media screen and (min-width:375px) and (max-width:1440px){
+   .main,.rowtop,.row1,.row2,.row3,.row4,.row5,.row6{ flex-direction: column;}
+   .row6a,.div6a,.div6b,.div6c,.div6cc{width:100%; text-align:left; align-items: left; justify-items: left;}
+   .div1a,.div2a,.div3,.div4a{width: 100%;
+object-fit: cover; }
+}
